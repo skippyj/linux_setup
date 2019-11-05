@@ -1,2 +1,2 @@
 # linux_setup
-General setup for bash profile, tmux, nvim, etc
+General, basic (bare-minimum) setup for bash profile, tmux, nvim, etc
