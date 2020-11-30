@@ -14,3 +14,4 @@ export PATH
 
 # Attach preferred tmux session
 tmux attach -t def
+alias vim=nvim
