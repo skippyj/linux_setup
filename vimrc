@@ -26,3 +26,18 @@ set syntax=on
 set nowrap
 set number
 set title
+set wildmenu
+set autoindent
+
+" Mapping
+set pastetoggle=<F2>
+map <F3> :NERDTreeToggle<CR>
+noremap H gT
+noremap L gt
+"autocmd FileType python setlocal shiftwidth=2 tabstop=2 expandtab
+"filetype plugin indent on
+
+" Elixir integration
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
+au BufRead,BufNewFile *.eex,*.heex,*.leex,*.sface,*.lexs set filetype=eelixir
+au BufRead,BufNewFile mix.lock set filetype=elixir
